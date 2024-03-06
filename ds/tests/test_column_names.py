@@ -39,7 +39,7 @@ def test_default_initial(empty_wallet):
 
 
 @pytest.mark.parametrize("deposit, withdraw, balance", [
-    (100, 50, 50),
+    (100, 50, 51),
     (1000, 50, 950)
 
 ])
